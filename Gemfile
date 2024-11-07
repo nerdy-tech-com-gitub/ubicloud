@@ -37,7 +37,7 @@ group :development do
   gem "erb-formatter", github: "ubicloud/erb-formatter", ref: "a9ff0001a1eb028e2186b222aeb02b07c04f9808"
   gem "foreman"
   gem "pry-byebug"
-  gem "rackup"
+  gem "rackup", ">= 2.2.0"
   gem "sequel-annotate"
   gem "rubocop-capybara"
   gem "rubocop-erb"
