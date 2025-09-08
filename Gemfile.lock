@@ -191,13 +191,12 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.7)
+    rack (3.1.8)
     rack-test (2.1.0)
       rack (>= 1.3)
     rack-unreloader (2.1.0)
-    rackup (2.1.0)
+    rackup (2.2.0)
       rack (>= 3)
-      webrick (~> 1.8)
     rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
@@ -324,7 +323,6 @@ GEM
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    webrick (1.8.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
@@ -364,7 +362,7 @@ DEPENDENCIES
   pry-byebug
   puma (>= 6.2.2)
   rack-unreloader (>= 1.8)
-  rackup
+  rackup (>= 2.2.0)
   rake
   refrigerator (>= 1)
   roda (>= 3.62)
@@ -394,4 +392,4 @@ RUBY VERSION
    ruby 3.2.5p208
 
 BUNDLED WITH
-   2.5.17
+   2.4.6
